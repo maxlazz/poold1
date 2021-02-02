@@ -1,2 +1,1 @@
-find rendu/poold1 -type f \( -name "*#*" -o -name "*~*" \)
--delete
+find rendu/poold1 -type f \( -name "#*" -o -name "*#" -o name "*~" \) -delete
