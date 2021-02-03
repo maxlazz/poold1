@@ -4,10 +4,11 @@ cd /rendu/poold1
 
 git add .
 
+echo "$1"
+
 DATE=$(date)
 
-git commit -m "changes made on $DATE"
+git commit -m "$1"
 
-git push 
-
+git push origin master
 
