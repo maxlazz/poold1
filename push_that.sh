@@ -1,7 +1,5 @@
 #!/bin/sh
 
-cd /rendu/poold1
-
 git add .
 
 echo "$1"
