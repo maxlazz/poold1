@@ -2,7 +2,7 @@
 
 git add .
 
-echo "$1"
+"$1"
 
 git commit -m "$1"
 
